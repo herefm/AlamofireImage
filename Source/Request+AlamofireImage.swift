@@ -34,7 +34,7 @@ import WatchKit
 import Cocoa
 #endif
 
-public class ImageResponseSerializer: ResponseSerializer {
+open class ImageResponseSerializer: ResponseSerializer {
     // MARK: Properties
 
     public static var deviceScreenScale: CGFloat { DataRequest.imageScale }
